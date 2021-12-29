@@ -1,4 +1,4 @@
-## Variables
+# Variables
 
 # a is variable and 5 is it's value
 a = 5

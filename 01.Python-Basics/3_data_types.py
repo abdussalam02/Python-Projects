@@ -10,11 +10,13 @@ Boolean Type:	bool e.g (True, False)
 Binary Types:	bytes, bytearray, memoryview e.g(.........)
 '''
 
+# Setting the Data Type
+
 a = 'Hello World'
 print("'Hello World' is of type ", type(a))
 
 b = 60
-print(" 60 is of type ", type(b))
+print("60 is of type ", type(b))
 
 c = 20.5
 print(type(c))
@@ -51,3 +53,34 @@ print(type(m))
 
 n = memoryview(bytes(5))
 print(type(n))
+
+# Setting the Specific Data Type
+# Try checking the type yourself
+
+o = str("Hello World")	#string
+
+p = int(20)	    #integer	
+
+q = float(20.5)	    #float	
+
+r = complex(1j)	    #complex	
+
+s = list(("apple", "banana", "cherry")) 	#list	
+
+t = tuple(("apple", "banana", "cherry"))	#tuple	
+
+u = range(6)	#range	
+
+v = dict(name="John", age=36)	#dict	
+
+w = set(("apple", "banana", "cherry"))	#set	
+
+x = frozenset(("apple", "banana", "cherry"))	#frozenset	
+
+y = bool(5)	    #bool	
+
+z = bytes(5)	#bytes	
+
+ab = bytearray(5)	#bytearray	
+
+bv = memoryview(bytes(5))	#memoryview
